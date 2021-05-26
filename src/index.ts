@@ -1,14 +1,10 @@
-export * from "./parser";
-export * from "./validator";
-
-// Expose `widl.ast` for the browser
-import * as astAll from "./ast";
-export const ast = astAll;
-
-// Expose `widl.error` for the browser
-import * as errorAll from "./error";
-export const error = errorAll;
-
-// Expose `widl.rules` for the browser
-import * as rulesAll from "./rules";
-export const rules = rulesAll;
+export * from "./location";
+export * from "./token";
+export * from "./definitions";
+export * from "./document";
+export * from "./kinds";
+export * from "./nodes";
+export * from "./definitions";
+export * from "./types";
+export * from "./values";
+export * from "./visitor";

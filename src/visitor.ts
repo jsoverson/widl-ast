@@ -15,8 +15,8 @@ import {
 } from "./definitions";
 import { Document } from "./document";
 import { Annotation, Name } from "./nodes";
-import autoBind from "../auto-bind";
-import { WidlError } from "../error/error";
+import autoBind from "./auto-bind";
+import { WidlError } from "./error/error";
 import { Kind } from "./kinds";
 
 export class Writer {

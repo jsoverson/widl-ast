@@ -1,6 +1,6 @@
 {
-  "name": "@wapc/widl",
-  "version": "0.0.8",
+  "name": "widl-ast",
+  "version": "0.0.0",
   "description": "waPC Interface Definition Language",
   "keywords": [
     "webassembly",
@@ -29,10 +29,7 @@
   "browser": "./dist/standalone.js",
   "browser-min": "./dist/standalone.min.js",
   "exports": {
-    ".": "./dist/cjs/index.js",
-    "./ast": "./dist/cjs/ast/index.js",
-    "./error": "./dist/cjs/error/index.js",
-    "./rules": "./dist/cjs/rules/rules.js"
+    ".": "./dist/cjs/index.js"
   },
   "files": [
     "dist",

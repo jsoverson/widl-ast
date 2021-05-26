@@ -115,7 +115,7 @@ export class ImportDefinition extends AbstractNode {
     this.all = all;
     this.names = names;
     this.from = from;
-    this.annotations = annotations || [];
+    this.annotations = annotations;
   }
 
   annotation(
